@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Akroma Coffee">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0c478"/>
+      <stop offset="0.5" stop-color="#d59b4c"/>
+      <stop offset="1" stop-color="#b07a2e"/>
+    </linearGradient>
+    <linearGradient id="bean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b3a1d"/>
+      <stop offset="1" stop-color="#2a1810"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="url(#gold)" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Steam lines -->
+  <g stroke="url(#gold)" stroke-width="2.4" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M48 30 q-5 -7 0 -14 q5 -7 0 -14"/>
+    <path d="M60 28 q-5 -7 0 -14 q5 -7 0 -14"/>
+    <path d="M72 30 q-5 -7 0 -14 q5 -7 0 -14"/>
+  </g>
+
+  <!-- V60 dripper forming an A -->
+  <path d="M34 44 L86 44 L60 96 Z" fill="url(#bean)" stroke="url(#gold)" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Crossbar of the A -->
+  <path d="M47 70 L73 70" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Drip -->
+  <circle cx="60" cy="104" r="3.2" fill="url(#gold)"/>
+  <!-- Coffee bean detail inside -->
+  <path d="M60 50 q9 5 0 14 q-9 -9 0 -14" fill="#f0c478" opacity="0.85"/>
+</svg>
